@@ -17,9 +17,44 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
+  color: #424242;
   font-weight: 500;
+}
+
+h2{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3{
+  line-height: 1.6;
+}
+
+a{
+  font-weight: 500;
+  cursor: pointer;
+}
+
+p{
+  font-size: 1rem;
+  line-height:1.8;
 }
 
 b, strong{
   font-weight: 500;
+}
+
+img{
+  max-width: 100%;
+  overflow: clip;
+  overflow-clip-margin: content-box;
+}
+
+.homepage section{
+  padding: 0 20px 120px 20px;
+}
+
+span.icon{
+  margin: 0 4px;
+  font-weight: thin;
 }

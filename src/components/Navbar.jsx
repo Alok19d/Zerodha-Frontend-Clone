@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   let isActive = menuOpen ? "open":"";
@@ -13,18 +15,17 @@ const Navbar = () => {
       setMenuOpen(true)
     }
   }
-
   
   return (
     <nav className="navbar">
       <div className='container nav-container'>
         <div>
-          <a href="/" >
+          <Link to="/" >
             <img className='logo-img' src="/logo.svg" alt="zerodha-logo"/>
-          </a>
+          </Link>
         </div>
         <div className='navbar-links'>
-          <a href="" className='nav-link'>Signup</a>
+          <Link to="/open-account" className='nav-link'>Signup</Link>
           <a href="" className='nav-link'>About</a>
           <a href="" className='nav-link'>Products</a>
           <a href="" className='nav-link'>Pricing</a>
@@ -43,7 +44,7 @@ const Navbar = () => {
               menuOpen && 
               <div id="menu">
                 <div className='menu-links'>
-                  <a>Signup</a>
+                  <Link to="/open-account">Signup</Link>
                   <a>About</a>
                   <a>Products</a>
                   <a>Pricing</a>
@@ -83,7 +84,7 @@ const Navbar = () => {
                   <div className='menu-footer-left'>
                     <div className='utils'>
                       <p><strong>Utilities</strong></p>
-                      <a>Brokerage calculator</a>
+                      <a>Brokerage calculator</a> 
                       <a>Margin calculator</a>
                       <a>Holiday Calender</a>
                       <a>Markets</a>
