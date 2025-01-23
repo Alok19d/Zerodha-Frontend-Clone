@@ -52,7 +52,7 @@ Follow these steps to clone and set up the project locally:
 
 2. **Navigate to the project directory**
    ```bash
-   cd zerodha-clone
+   cd zerodha-frontend-clone
    ```
 
 3. **Install dependencies**
