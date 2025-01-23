@@ -29,14 +29,16 @@ A fully responsive Zerodha frontend clone built using **ReactJS**. This project 
 ![Signup Page](./screenshots/signup-page.png)
 
 ### Mobile Responsive View
-<img src="./screenshots/Mobile-View_01.jpg" alt="drawing" width="220"/>
-<img src="./screenshots/Mobile-View_02.jpg" alt="drawing" width="220"/>
-<img src="./screenshots/Mobile-View_03.jpg" alt="drawing" width="220"/>
-<img src="./screenshots/Mobile-View_04.jpg" alt="drawing" width="220"/>
-<img src="./screenshots/Mobile-View_05.jpg" alt="drawing" width="220"/>
-<img src="./screenshots/Mobile-View_06.jpg" alt="drawing" width="220"/>
-<img src="./screenshots/Mobile-View_07.jpg" alt="drawing" width="220"/>
-<img src="./screenshots/Mobile-View_08.jpg" alt="drawing" width="220"/>
+<div style="display:flex; flex-wrap:wrap; gap: 10px;">
+   <img src="./screenshots/Mobile-View_01.jpg" alt="drawing" width="220"/>
+   <img src="./screenshots/Mobile-View_02.jpg" alt="drawing" width="220"/>
+   <img src="./screenshots/Mobile-View_03.jpg" alt="drawing" width="220"/>
+   <img src="./screenshots/Mobile-View_04.jpg" alt="drawing" width="220"/>
+   <img src="./screenshots/Mobile-View_05.jpg" alt="drawing" width="220"/>
+   <img src="./screenshots/Mobile-View_06.jpg" alt="drawing" width="220"/>
+   <img src="./screenshots/Mobile-View_07.jpg" alt="drawing" width="220"/>
+   <img src="./screenshots/Mobile-View_08.jpg" alt="drawing" width="220"/>
+</div>
 
 
 ## Installation and Setup
@@ -45,7 +47,7 @@ Follow these steps to clone and set up the project locally:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/alok19d/zerodha-frontend-clone.git
+   git clone https://github.com/Alok19d/zerodha-frontend-clone.git
    ```
 
 2. **Navigate to the project directory**
