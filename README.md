@@ -29,15 +29,15 @@ A fully responsive Zerodha frontend clone built using **ReactJS**. This project 
 ![Signup Page](./screenshots/signup-page.png)
 
 ### Mobile Responsive View
-<div style="display:flex; flex-wrap:wrap; gap: 10px;">
-   <img src="./screenshots/Mobile-View_01.jpg" alt="drawing" width="220"/>
-   <img src="./screenshots/Mobile-View_02.jpg" alt="drawing" width="220"/>
-   <img src="./screenshots/Mobile-View_03.jpg" alt="drawing" width="220"/>
-   <img src="./screenshots/Mobile-View_04.jpg" alt="drawing" width="220"/>
-   <img src="./screenshots/Mobile-View_05.jpg" alt="drawing" width="220"/>
-   <img src="./screenshots/Mobile-View_06.jpg" alt="drawing" width="220"/>
-   <img src="./screenshots/Mobile-View_07.jpg" alt="drawing" width="220"/>
-   <img src="./screenshots/Mobile-View_08.jpg" alt="drawing" width="220"/>
+<div style="display:flex; flex-wrap:wrap;">
+   <img src="./screenshots/Mobile-View_01.jpg" alt="drawing" width="248"/>
+   <img src="./screenshots/Mobile-View_02.jpg" alt="drawing" width="248"/>
+   <img src="./screenshots/Mobile-View_03.jpg" alt="drawing" width="248"/>
+   <img src="./screenshots/Mobile-View_04.jpg" alt="drawing" width="248"/>
+   <img src="./screenshots/Mobile-View_05.jpg" alt="drawing" width="248"/>
+   <img src="./screenshots/Mobile-View_06.jpg" alt="drawing" width="248"/>
+   <img src="./screenshots/Mobile-View_07.jpg" alt="drawing" width="248"/>
+   <img src="./screenshots/Mobile-View_08.jpg" alt="drawing" width="248"/>
 </div>
 
 
