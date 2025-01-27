@@ -2,12 +2,22 @@
 
 A fully responsive Zerodha frontend clone built using **ReactJS**. This project replicates the user interface of the popular stock trading platform, providing a sleek and modern design with smooth functionality.
 
+[Live Demo](https://zerodha-frontend-clone.vercel.app/)
+
+## Features
+
 ## Features
 
 - **Responsive Design:** Optimized for mobile, tablet, and desktop screens.
 - **Dashboard UI:** A clean and intuitive dashboard similar to Zerodha's.
-- **Interactive Components:** Includes navigation bar, sidebar, and dummy forms.
+- **Interactive Components:** Includes navigation bar, sidebar, and custom forms.
 - **React Components:** Modular and reusable components for scalability.
+- **Dynamic Routing:** Implemented React Router for smooth page navigation.
+- **Protected Routes:** Secured authenticated flows using UserProtectWrapper.
+- **State Management:** Implemented Context API for efficient user data handling.
+- **Form Validation:** Built-in validation for phone numbers and OTP verification.
+- **Modular Layout System:** Reusable layout wrappers for consistent UI/UX.
+- **Performance Optimized:** Fast loading times with optimized assets and components.
 
 ## Technologies Used
 
@@ -15,29 +25,39 @@ A fully responsive Zerodha frontend clone built using **ReactJS**. This project 
 - **React Router DOM:** For seamless navigation between pages.
 - **CSS:** For styling and responsive design.
 
+## Dependencies
+  ```json
+   "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^6.7.2",
+      "@fortawesome/free-brands-svg-icons": "^6.7.2",
+      "@fortawesome/free-regular-svg-icons": "^6.7.2",
+      "@fortawesome/free-solid-svg-icons": "^6.7.2",
+      "@fortawesome/react-fontawesome": "^0.2.2",
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1",
+      "react-router-dom": "^7.1.3"
+   }
+   ```
+
 ## Overview of Zerodha Frontend Clone
 
 ### Dashboard View
 ![Dashboard View](./screenshots/Screenshot_01.png)
 ![Dashboard View](./screenshots/Screenshot_02.png)
 ![Dashboard View](./screenshots/Screenshot_03.png)
-![Dashboard View](./screenshots/Screenshot_04.png)
-![Dashboard View](./screenshots/Screenshot_05.png)
-![Dashboard View](./screenshots/Screenshot_06.png)
 
 ### Signup Page
-![Signup Page](./screenshots/signup-page.png)
+![Signup Page](./screenshots/Signup-Page_01.png)
+![Signup Page](./screenshots/Signup-Page_02.png)
 
 ### Mobile Responsive View
-<div style="display:flex; flex-wrap:wrap;">
+<div style="display:grid; grid-template-columns:repeat(3,1fr);">
    <img src="./screenshots/Mobile-View_01.jpg" alt="drawing" width="248"/>
    <img src="./screenshots/Mobile-View_02.jpg" alt="drawing" width="248"/>
    <img src="./screenshots/Mobile-View_03.jpg" alt="drawing" width="248"/>
    <img src="./screenshots/Mobile-View_04.jpg" alt="drawing" width="248"/>
    <img src="./screenshots/Mobile-View_05.jpg" alt="drawing" width="248"/>
-   <img src="./screenshots/Mobile-View_06.jpg" alt="drawing" width="248"/>
-   <img src="./screenshots/Mobile-View_07.jpg" alt="drawing" width="248"/>
-   <img src="./screenshots/Mobile-View_08.jpg" alt="drawing" width="248"/>
+
 </div>
 
 
@@ -92,9 +112,7 @@ Follow these steps to clone and set up the project locally:
 - Simulate stock trading functionality.
 - Include dark mode for better user experience.
 
-## Acknowledgements
-
-- **Zerodha:** Inspiration for the design and features.
-- **ReactJS Community:** For extensive documentation and support.
+## Contact
+For queries or feedback, please contact [Alok](mailto:anandkumar19d@gmail.com).
 
 ---
