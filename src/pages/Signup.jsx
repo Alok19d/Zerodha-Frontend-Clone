@@ -1,6 +1,6 @@
 import React,{ useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
-import CreateAccount from '../components/Layout/CreateAccount'
+import CreateAccount from '../components/layout/CreateAccount'
 import {UserDataContext} from '../context/UserContext'
 
 const Signup = () => {

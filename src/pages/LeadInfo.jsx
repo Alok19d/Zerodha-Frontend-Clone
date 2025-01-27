@@ -1,5 +1,5 @@
 import React,{ useState, useContext } from 'react'
-import CreateAccount from '../components/Layout/CreateAccount'
+import CreateAccount from '../components/layout/CreateAccount'
 import { UserDataContext } from '../context/UserContext'
 
 const LeadInfo = () => {
