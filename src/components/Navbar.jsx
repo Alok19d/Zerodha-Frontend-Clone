@@ -1,9 +1,10 @@
 import React,{useState} from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
 
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
 
   let isActive = menuOpen ? "open":"";
 
@@ -25,11 +26,31 @@ const Navbar = () => {
           </Link>
         </div>
         <div className='navbar-links'>
-          <Link to="/open-account" className='nav-link'>Signup</Link>
-          <a href="" className='nav-link'>About</a>
-          <a href="" className='nav-link'>Products</a>
-          <a href="" className='nav-link'>Pricing</a>
-          <a href="" className='nav-link'>Support</a>
+          <Link 
+            to="/open-account" 
+            className={location.pathname === "/open-account"? "active nav-link": 'nav-link'}>
+            Signup
+          </Link>
+          <Link 
+            to='/about' 
+            className={location.pathname === "/about"? "active nav-link": 'nav-link'}>
+            About
+          </Link>
+          <Link 
+            to="/products" 
+            className={location.pathname === "/products"? "active nav-link": 'nav-link'}>
+            Products
+          </Link>
+          <Link 
+            to="" 
+            className='nav-link'>
+            Pricing
+          </Link>
+          <Link 
+            to="/support" 
+            className={location.pathname === "/support"? "active nav-link": 'nav-link'}>
+            Support
+          </Link>
        
           <div id="navbar-menu">
             <div className='menu-btn-container' onClick={handleMenuOpen}>
@@ -45,10 +66,10 @@ const Navbar = () => {
               <div id="menu">
                 <div className='menu-links'>
                   <Link to="/open-account">Signup</Link>
-                  <a>About</a>
-                  <a>Products</a>
+                  <Link to="/about">About</Link>
+                  <Link to="/products">Products</Link>
                   <a>Pricing</a>
-                  <a>Support</a>
+                  <Link to="/support">Support</Link>
                 </div>
                 <div className='products-list'>
                   <div className='product'>

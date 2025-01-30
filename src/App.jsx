@@ -6,6 +6,9 @@ import Signup from './pages/Signup'
 import ValidatePhone from './pages/ValidatePhone'
 import LeadInfo from './pages/LeadInfo.jsx'
 import UserProtectWrapper from './components/layout/UserProtectWrapper.jsx'
+import About from './pages/About.jsx'
+import Products from "./pages/Products.jsx"
+import Support from "./pages/Support.jsx"
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
           <LeadInfo />
         </UserProtectWrapper>
       }/>
+      <Route path="/about" element={<About />}/>
+      <Route path="/products" element={<Products />}/>
+      <Route path="/support" element={<Support />}/>
     </Routes>
   )
 }
