@@ -589,6 +589,7 @@ footer .smallprint a:hover{
 .signup-form{
   width: 100%;
 }
+
 .signup-form h2{
   font-size: 1.8rem;
   margin-bottom: 5px;
@@ -948,6 +949,169 @@ footer .smallprint a:hover{
   margin: 15px 0;
 }
 
+/* Support Page Styles */
+.faq-head-section{
+  color: #fff;
+  background: #387ed1;
+  padding: 35px 0px 85px 0;
+}
+
+.support-portal-logo{
+  font-size: 1.275rem;
+  font-weight: 500;
+}
+
+.track-tickets{
+  font-weight: 500;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 0px;
+  position: relative;
+  bottom: 3px;
+}
+
+.support-subheading{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.search-inp-grp{
+  height: 58px;
+  background:#fff;
+  margin-bottom: 15px;
+  padding: 10px 0px 10px 10px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.search-inp-grp span{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  color: #666666;
+}
+
+.search-inp-grp span svg{
+  width: 20px;
+  height: 20px;
+}
+
+.search-text{
+  color: #222;
+  height: 38px;
+  width: 89%;
+  padding: 0;
+}
+
+.search-text:focus{
+  outline: none;
+}
+
+.super-links p{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.super-links a{
+  border-bottom: 1px solid #fff;
+  padding-bottom: 4px;
+  margin-right: 20px;
+}
+
+.featured{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.featured-header{
+  margin-bottom: 15px;
+  font-size: 1.275rem;
+  font-weight: 500;
+}
+
+.featured ol{
+  list-style:decimal;
+  padding-inline-start: 40px;
+}
+
+.featured ol li{
+  margin-bottom: 20px;
+}
+
+.featured ol a{
+  border-bottom: 1px solid #fff;
+}
+
+.faq-content-section{
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.faq-content-section h2{
+  color: #666;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.card-block{
+  margin-bottom: 30px;
+}
+
+.card-block svg{
+  padding-right: 10px;
+}
+
+.card-block h3{
+  color: #222222;
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.card-block h3:hover{
+  color: #387ed1;
+}
+.card-block p{
+  padding-left: 31px;
+  margin-block: 7px;
+}
+
+.card-block p a{
+  color: #387ed1;
+  font-size: 14px;
+}
+
+.card-block p a:hover{
+  color: #666666;
+}
+
+/* Products Styles */
+.products-header{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #eee;
+}
+
+.landing-subheading{
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.products-header a{
+  color: #387ed1;
+  font-weight: 500;
+}
+
 
 
 /* Media Queries */
@@ -968,6 +1132,15 @@ footer .smallprint a:hover{
 
   footer .container{
     padding: 0 20px;
+  }
+
+  .faq-head-section, .faq-content-section{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .products-header{
+    padding-inline: 20px;
   }
 }
 
@@ -1247,6 +1420,49 @@ footer .smallprint a:hover{
 
   .member{
     padding: 20px 0 !important;
+  }
+
+  .faq-head-section{
+    padding: 0px 20px 85px 20px;
+  }
+
+  .support-portal-logo{
+    flex-basis: 30%;
+    font-size: 16px;
+  }
+
+  .track-tickets{
+    font-size: 14px;
+  }
+
+  .support-container{
+    flex-direction: column;
+  }
+
+  .support-subheading{
+    display: none;
+  }
+
+  .search-inp-grp{
+    height: 44px;
+    padding: 3px;
+  }
+
+  .search-inp-grp span{
+    top: 10px;
+    right: 10px;
+  }
+
+  .search-text{
+    padding-left: 10px;
+  }
+
+  .super-links p{
+    display: block;
+  }
+
+  .card-block-container{
+    flex-direction: column;
   }
 }
 
