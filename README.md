@@ -4,7 +4,6 @@ A fully responsive Zerodha frontend clone built using **ReactJS**. This project 
 
 [Live Demo](https://zerodha-frontend-clone.vercel.app/)
 
-## Features
 
 ## Features
 
@@ -42,13 +41,17 @@ A fully responsive Zerodha frontend clone built using **ReactJS**. This project 
 ## Overview of Zerodha Frontend Clone
 
 ### Dashboard View
-![Dashboard View](./screenshots/Screenshot_01.png)
-![Dashboard View](./screenshots/Screenshot_02.png)
-![Dashboard View](./screenshots/Screenshot_03.png)
+![Dashboard View](./screenshots/Dashboard-Page.png)
 
 ### Signup Page
 ![Signup Page](./screenshots/Signup-Page_01.png)
 ![Signup Page](./screenshots/Signup-Page_02.png)
+
+### About Page
+![About Page](./screenshots/About-Page.png)
+
+### Support Page
+![About Page](./screenshots/Support-Page.png)
 
 ### Mobile Responsive View
 <div style="display:grid; grid-template-columns:repeat(3,1fr);">
@@ -57,6 +60,7 @@ A fully responsive Zerodha frontend clone built using **ReactJS**. This project 
    <img src="./screenshots/Mobile-View_03.jpg" alt="drawing" width="248"/>
    <img src="./screenshots/Mobile-View_04.jpg" alt="drawing" width="248"/>
    <img src="./screenshots/Mobile-View_05.jpg" alt="drawing" width="248"/>
+   <img src="./screenshots/Mobile-View_06.jpg" alt="drawing" width="248"/>
 
 </div>
 

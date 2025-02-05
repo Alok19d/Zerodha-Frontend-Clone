@@ -13,6 +13,9 @@ const Products = () => {
         <p className='landing-subheading'>Sleek, modern, and intuitive trading platforms</p>
         <p>Check out our <a>investment offerings <FontAwesomeIcon icon={faArrowRightLong} /></a></p>
       </section>
+      <section>
+        
+      </section>
       <Footer />
     </>
   )
